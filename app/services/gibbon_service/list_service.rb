@@ -4,7 +4,7 @@ module GibbonService
     attr_reader :members, :list_uid
 
     MEMBER_STATUS                   = { unsubscribe: 'unsubscribed', subscribe: 'subscribed' }
-    DEFAULT_MEMBER_RETRIEVAL_PARAMS = { params: { 'status': MEMBER_STATUS[:subscribe] } }
+    DEFAULT_MEMBER_RETRIEVAL_PARAMS = { params: { status: MEMBER_STATUS[:subscribe] } }
     LIST_ATTRIBUTES                 = [:permission_reminder, :email_type_option, :campaign_defaults, :contact]
     DEFAULT_LIST_GENERATION_PARAMS  = SpreeMarketing::CONFIG[Rails.env].slice(*LIST_ATTRIBUTES)
 
