@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_marketing'
-  s.version     = '3.0.7'
+  s.version     = '3.0.4'
   s.summary     = 'Add gem summary here'
   s.description = 'Add (optional) gem description here'
   s.required_ruby_version = '>= 2.0.0'
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 3.0.7'
+  s.add_dependency 'spree_core', '~> 3.0.4'
   s.add_dependency 'gibbon',     '~> 2.2.3'
   s.add_dependency 'whenever',   '~> 0.9.4'
 
